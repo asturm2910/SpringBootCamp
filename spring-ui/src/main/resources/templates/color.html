@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Spring Bootcamp Color Application</title>
+</head>
+    <body th:style="'background-color: ' + ${param_color}">
+        <h2 style="position: absolute; bottom: 50%; right: 45%" th:text="' --&gt ' + ${message} + ' &lt-- '"></h2>
+        <img style="position: absolute; bottom: 100; right: 500" src="https://i0.wp.com/www.e4developer.com/wp-content/uploads/2018/01/spring-boot.png?w=600&ssl=1" />
+    </body>
+</html>
